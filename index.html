@@ -76,7 +76,11 @@
         </div>
     </footer>
     <script>
-
+        
+        window.addEventListener('load', function() {
+            window.scrollTo(0, 0);
+        });
+  
         function sendMail() {
             var link = "mailto:ericraw@gmail.com."
                 + "Hello=" + escape("I am from homepage")
