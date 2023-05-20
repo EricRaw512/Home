@@ -1,0 +1,187 @@
+/* General styles */
+
+body {
+    background-color: #0a192f;
+    color: #8892b0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #64ffda;
+    text-decoration: none;
+}
+
+h1 {
+    color: #64ffda;
+    font-size: 25px;
+    text-align: left;
+}
+
+p, ul {
+    max-width: 100%;
+}
+
+section {
+    margin: 0px auto;
+    max-width: 1000px;
+    padding: 0px 0px;
+}
+
+span {
+    color: #64ffda;
+}
+
+/* Header styles */
+
+header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    transition: top 0.5s;
+    background-color:#0a192f;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.fadeOutUp {
+    top: -100px;
+}
+
+.toplist {
+    margin: 10px;
+}
+
+.headLink {
+    color: white;
+}
+
+/* Main content styles */
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    min-height: 100vh;
+    text-align: left;
+}
+
+.navigation {
+    color : #64ffda;
+}
+
+#about { 
+    margin-top: 100px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+#name {
+    color: white;
+    font-size: 100px;
+    text-align: left;
+}
+
+#name1 {
+    font-size: 90px;
+    text-align: left;
+}
+
+#experience {
+    align-items: center;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.program {
+    color: #64ffda;
+}
+
+#dog {
+    max-height: 600px;
+    width: 400px;
+    height: 200px;
+}
+
+#project {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#email {
+    max-width: 100px;
+    margin: 0 auto;
+    border: solid 1px #64ffda;
+    background-color: transparent;
+    color: #64ffda
+}
+
+#left {
+    list-style-type: none;
+    text-decoration: none;
+    position: fixed;
+    left: -20px;
+    bottom: 10px;
+    color: white;
+}
+
+.linkIcon {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+#right {
+    color: white;
+    position: fixed;
+    right: 0;
+    width: 50px;
+}
+
+@media (max-width: 750px) {
+    #experience {
+        flex-direction: column;
+    }
+    #dog {
+        max-width: 100%;
+        height: 300px;
+    }
+
+    #name1 {
+        font-size: 50px;
+    }
+
+    #name {
+        font-size: 60px;
+    }
+}
+
+/* Footer styles */
+
+footer {
+    padding: 20px 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #64ffda;
+}
